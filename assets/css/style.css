@@ -127,7 +127,7 @@
     top: 32%;
 }
 
-.lts-0-28 {
+.lt-0-28 {
     letter-spacing: 0.28px;
 
 }
@@ -158,23 +158,38 @@
         background-position: right;
     }
 
-    .cartoon-img {
-        display: none;
-    }
-
     .gap-38 {
         gap: 8px;
+    }
+
+    .Bring-header-btn {
+        z-index: 1;
+        position: relative;
+    }
+
+    .center {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .mt-16 {
+        margin-top: 16px;
     }
 }
 
 @media (max-width:767.98px) {
     .lh-80 {
-        line-height: 55px;
+        line-height: 60px;
     }
 
+
     .mt-200 {
-        margin-top: 100px;
+        margin-top: 150px;
     }
+
 }
 
 @media (max-width:575.98px) {
@@ -184,5 +199,9 @@
 
     .bg-img {
         background-position: right;
+    }
+
+    .w-60 {
+        width: 60px;
     }
 }
