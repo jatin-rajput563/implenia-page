@@ -12,11 +12,6 @@
     max-width: 1138px !important;
 }
 
-.mx-w-567 {
-    max-width: 562px;
-    min-height: 562px;
-}
-
 .gap-38 {
     gap: 38px;
 }
@@ -73,7 +68,7 @@
 .Bring-header-btn {
     max-width: 312px;
     height: 67px;
-    border: 2px solid #FFFFFF !important;
+    border: 2px solid var(--color-white) !important;
     border-radius: 47px;
     padding: 11px 22px 11px 22px;
     background-color: unset !important;
@@ -81,7 +76,7 @@
 }
 
 .Bring-header-btn:hover {
-    background-color: white !important;
+    background-color: var(--color-white) !important;
     color: var(--color-black);
 }
 
@@ -167,11 +162,6 @@
         gap: 8px;
     }
 
-    .Bring-header-btn {
-        z-index: 1;
-        position: relative;
-    }
-
     .center {
         text-align: center;
         display: flex;
@@ -213,5 +203,12 @@
 @media (max-width:474.98px) {
     .lh-80 {
         line-height: 40px;
+    }
+}
+
+@media (max-width:1100.98px) {
+    .Bring-header-btn {
+        z-index: 1;
+        position: relative;
     }
 }
