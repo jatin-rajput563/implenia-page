@@ -48,6 +48,12 @@
 
 @media (max-width:575.98px) {
     :root {
-        --fs-3xl: 32px;
+        --fs-3xl: 50px;
+    }
+}
+
+@media (max-width:474.98px) {
+    :root {
+        --fs-3xl: 33px;
     }
 }
