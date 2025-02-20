@@ -15,7 +15,9 @@
 .gap-38 {
     gap: 38px;
 }
-
+.max-w-1090{
+    max-width: 1090px !important;
+}
 .menu-lines {
     width: 30px;
     height: 5px;
