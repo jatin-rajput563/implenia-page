@@ -218,6 +218,98 @@
     margin-left: 27px;
 }
 
+/* ------------------section-4--------------- */
+.mx-w-277 {
+    max-width: 277px;
+}
+
+.kickbox {
+    max-width: 323px;
+    border-radius: 28px;
+    border: 1px solid #000000;
+    padding: 30px 26px 19px 26px;
+}
+
+/* -------red-btn------ */
+.section-4-start-btn {
+    width: 268px;
+    height: 56px;
+    border: 2px solid #FF132D;
+    border-radius: 47px;
+    background-color: var(--color-white);
+    color: var(--color-red);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms linear;
+}
+
+.kick-card:hover .section-4-start-btn {
+    opacity: 100%;
+    pointer-events: visible;
+}
+
+.section-4-start-btn:hover {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+/* -------blue-btn------ */
+
+.section-4-start-blue-btn {
+    width: 268px;
+    height: 56px;
+    border: 2px solid var(--color-blue);
+    border-radius: 47px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms linear;
+}
+
+.section-4-start-blue-btn:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+
+.kick-card:hover .section-4-start-blue-btn {
+    opacity: 100%;
+    pointer-events: visible;
+}
+
+/* -------yellow-btn------ */
+.section-4-start-yellow-btn {
+    width: 268px;
+    height: 56px;
+    border: 2px solid var(--color-yellow);
+    border-radius: 47px;
+    background-color: var(--color-white);
+    color: var(--color-yellow);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms linear;
+}
+
+.section-4-start-yellow-btn:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+}
+
+
+.kick-card:hover .section-4-start-yellow-btn {
+    opacity: 100%;
+    pointer-events: visible;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-39 {
+    margin-top: 39px;
+}
+
 @media (max-width:991.98px) {
 
     .nav-link {
