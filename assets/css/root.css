@@ -13,6 +13,7 @@
     --dark-yellow: #EBA82C;
     --color-yellow: #FEBE32;
     --color-red: #FF132D;
+    --dark-white: #F5F5F5;
 }
 
 .fs-sm {
@@ -55,6 +56,10 @@
     color: var(--color-red);
 }
 
+.bg-dark-white {
+    background-color: var(--dark-white);
+}
+
 @media (max-width:767.98px) {
     :root {
         --fs-3xl: 60px;
@@ -64,7 +69,9 @@
 @media (max-width:575.98px) {
     :root {
         --fs-3xl: 50px;
+        --fs-2xl: 38px;
     }
+
 }
 
 @media (max-width:474.98px) {
