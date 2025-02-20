@@ -66,11 +66,9 @@
 }
 
 .Bring-header-btn {
-    max-width: 312px;
-    height: 67px;
     border: 2px solid var(--color-white) !important;
     border-radius: 47px;
-    padding: 11px 22px 11px 22px;
+    padding: 21px 51px 21px 51px;
     background-color: unset !important;
     color: var(--color-white);
 }
@@ -130,6 +128,47 @@
 
 .text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ------------------section-2--------------- */
+.submit-btn {
+    width: 268px;
+    /* padding: 14px 70px 14px 70px; */
+    height: 56px;
+    border-radius: 47px;
+    border: 2px solid var(--color-red);
+    background-color: var(--color-white);
+    color: var(--color-red);
+    transition: all 200ms linear;
+}
+
+.submit-btn:hover {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.mt-134 {
+    margin-top: 134px;
+}
+
+.mb-128 {
+    margin-bottom: 128px;
+}
+
+.mx-w-1090 {
+    max-width: 1090px;
+}
+
+.pl-71 {
+    padding-left: 71px;
+}
+
+.pl-74 {
+    padding-left: 74px;
+}
+
+.pl-151 {
+    padding-left: 151px;
 }
 
 @media (max-width:991.98px) {

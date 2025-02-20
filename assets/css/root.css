@@ -9,7 +9,10 @@
     /* -------------------- */
     --color-white: white;
     --color-black: black;
+    --light-black: #1D1D1B;
     --dark-yellow: #EBA82C;
+    --color-yellow: #FEBE32;
+    --color-red: #FF132D;
 }
 
 .fs-sm {
@@ -38,6 +41,18 @@
 
 .fs-4xl {
     font-size: var(--fs-4xl) !important;
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+.color-red {
+    color: var(--color-red);
 }
 
 @media (max-width:767.98px) {
