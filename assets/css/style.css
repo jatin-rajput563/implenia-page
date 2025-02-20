@@ -307,3 +307,9 @@
         margin-left: 0;
     }
 }
+
+@media (min-width:992px) {
+    .pl-45 {
+        padding-left: 45px !important;
+    }
+}
