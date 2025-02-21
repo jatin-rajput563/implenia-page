@@ -7,6 +7,8 @@
     --fs-3xl: 76px;
     --fs-4xl: 80px;
     /* -------------------- */
+    --fw-900: 900;
+    /* -------------------- */
     --color-white: white;
     --color-black: black;
     --light-black: #1D1D1B;
@@ -46,6 +48,10 @@
     font-size: var(--fs-4xl) !important;
 }
 
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
 .light-black {
     color: var(--light-black);
 }
@@ -72,6 +78,10 @@
 
 .text-grey {
     color: var(--color-grey);
+}
+
+.bg-yellow {
+    background-color: var(--dark-yellow) !important;
 }
 
 @media (max-width:767.98px) {
