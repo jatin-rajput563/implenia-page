@@ -15,6 +15,7 @@
     --color-red: #FF132D;
     --dark-white: #F5F5F5;
     --color-blue: #009FE3;
+    --color-grey: #8F9090;
 }
 
 .fs-sm {
@@ -69,9 +70,14 @@
     color: var(--color-blue);
 }
 
+.text-grey {
+    color: var(--color-grey);
+}
+
 @media (max-width:767.98px) {
     :root {
         --fs-3xl: 60px;
+        --fs-lg: 23px;
     }
 }
 
@@ -86,5 +92,7 @@
 @media (max-width:474.98px) {
     :root {
         --fs-3xl: 33px;
+        --fs-lg: 18px;
     }
+
 }
