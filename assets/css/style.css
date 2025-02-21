@@ -323,7 +323,7 @@
     height: 56px;
     border: 2px solid #FF132D;
     border-radius: 47px;
-    background-color: var(--color-white);
+    background-color: transparent;
     color: var(--color-red);
     transition: all 200ms linear;
 }
