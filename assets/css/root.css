@@ -96,3 +96,10 @@
     }
 
 }
+
+@media (max-width:370.98px) {
+    :root {
+        --fs-2xl: 22px;
+    }
+
+}
